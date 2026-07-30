@@ -70,7 +70,7 @@ ID - TestFoot6 \
 Title - Check that filtering for match list is working \
 Priority: Medium \
 Risk Rationale: User should see data according to select date filter. \
-Steps: \
+Steps: 
 1) Open Application https://qae-assignment-tau.vercel.app/?user-id=<User-ID>
 2) Click on "Date" filter button 
 3) Select date from date picker. 
