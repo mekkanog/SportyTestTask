@@ -1,0 +1,15 @@
+{
+  "Test1": {
+    "stake": "12",
+    "team_selection": "HOME"
+  },
+  "Test2": {
+    "stake": "13",
+    "team_selection": "AWAY"
+  },
+  "Test3": {
+    "stake": "31",
+    "team_selection": "DRAW",
+    "match_id": "mls-lafc-inter-miami-2026-12-28"
+  }
+}
