@@ -38,7 +38,6 @@ The project uses:
 - Python 3.10 or newer;
 - Google Chrome for the default UI test run. Firefox and Edge are also
   supported by the WebDriver fixture;
-- network access to the application under test.
 
 Clone the repository, open its directory, and create a virtual environment:
 
@@ -83,11 +82,6 @@ Run only UI tests:
 pytest -m ui
 ```
 
-Use verbose output when more detail is needed:
-
-```bash
-pytest -v
-```
 
 The tests target the assignment environment and its predefined test user by
 default. These values can be overridden with environment variables:
@@ -96,7 +90,6 @@ default. These values can be overridden with environment variables:
 BASE_URL="https://example.test/" \
 BET_API_URL="https://example.test/api/place-bet" \
 USER_ID="test-user-id" \
-pytest
 ```
 
 > **Note:** Successful scenarios place real bets for the configured test user
