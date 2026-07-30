@@ -1,4 +1,4 @@
-ID - TestFoot1 \ 
+ID - TestFoot1 \
 Title - Verify successful placement on a single bet \
 Priority: Critical \
 Risk Rationale: Main business logic of application is betting.\
