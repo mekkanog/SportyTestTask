@@ -1,6 +1,6 @@
-Bug ID - BugFoot1
-Title - Multiple bets can be placed by repeatedly clicking the “Place bet” button
-Severity: High
+Bug ID - BugFoot1 \
+Title - Multiple bets can be placed by repeatedly clicking the “Place bet” button \
+Severity: High \
 Reproduction Steps:
 1) Open Application https://qae-assignment-tau.vercel.app/?user-id=<User-ID>
 2) Find any valid record with upcoming match
@@ -13,9 +13,9 @@ Business Impact: Multiple successful bets can be placed if user repeatedly click
 This may result in financial losses, refund requests, and loss of trust to the platform.
 Evidence: ![multiplestake.png](BugScreenshots/multiplestake.png)
 
-Bug ID - BugFoot2
-Title - Displayed user balance does not update after placing a bet
-Severity: High
+Bug ID - BugFoot2 \
+Title - Displayed user balance does not update after placing a bet \
+Severity: High \
 Reproduction Steps:
 1) Open Application https://qae-assignment-tau.vercel.app/?user-id=<User-ID>
 2) Find any valid record with upcoming match
@@ -28,9 +28,9 @@ Business Impact: The displayed balance becomes inconsistent with the actual acco
 lead to repeated betting attempts, reduce trust in the platform, and increase customer support requests.
 Evidence: ![BalanceChange.png](BugScreenshots/BalanceChange.png)
 
-Bug ID - BugFoot3
-Title - Successful modal does not contain information about "Selection"
-Severity: Medium
+Bug ID - BugFoot3 \
+Title - Successful modal does not contain information about "Selection" \
+Severity: Medium \
 Reproduction Steps:
 1) Open Application https://qae-assignment-tau.vercel.app/?user-id=<User-ID>
 2) Find any valid record with upcoming match
