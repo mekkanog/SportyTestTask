@@ -2,7 +2,7 @@ ID - TestFoot1 \
 Title - Verify successful placement on a single bet \
 Priority: Critical \
 Risk Rationale: Main business logic of application is betting.\
-Steps: \
+Steps: 
 1) Open Application https://qae-assignment-tau.vercel.app/?user-id=<User-ID>
 2) Find any valid record with upcoming match 
 3) Make a bet on any result. 
@@ -16,7 +16,7 @@ ID - TestFoot2 \
 Title - Verify that the user cannot place a bet with a negative stake \
 Priority: Critical \
 Risk Rationale: User should not have possibility to make negative stake this can break balance functionality \
-Steps: \
+Steps: 
 1) Open Application https://qae-assignment-tau.vercel.app/?user-id=<User-ID>
 2) Find any valid record with upcoming match
 3) Make a bet on any result.
@@ -29,7 +29,7 @@ ID - TestFoot3 \
 Title - Check that rebet functionality is working.  \
 Priority: High \
 Risk Rationale: Rebet functionality should work properly and send the same data which was specified by user before the error. \
-Steps: \
+Steps: 
 1) Open Application https://qae-assignment-tau.vercel.app/?user-id=<User-ID>
 2) Find any valid record with upcoming match
 3) Make a bet on any result.
@@ -38,7 +38,7 @@ Steps: \
 6) Click on “Place bet” button
 7) After error modal appear switch browser to online mode again. 
 8) Click on "Rebet" button
-Expected Result: Success window should appear this window should contain the same values that user select and enter before. \
+9) Expected Result: Success window should appear this window should contain the same values that user select and enter before. \
 
 ID - TestFoot4 \
 Title - Verify stake amount boundaries \
@@ -57,7 +57,7 @@ ID - TestFoot5 \
 Title - Check that user are not able to make double bet \
 Priority: High \
 Risk Rationale: User should not be able to make a double bet \
-Steps: \
+Steps: 
 1) Open Application https://qae-assignment-tau.vercel.app/?user-id=<User-ID>
 2) Find any valid record with upcoming match
 3) Make a bet on any result.
